@@ -5,16 +5,32 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import uz.namozvaqti.app.NamozApp
-import uz.namozvaqti.app.data.local.PrayerDayEntity
-import java.time.LocalDate
+import uz.namozvaqti.app.locale.AppLanguage
+import uz.namozvaqti.app.ui.theme.ThemeMode
+
+/** Everything the root needs BEFORE it can draw anything (theme + language + first-run gate). */
+data class AppPrefs(
+    val themeMode: ThemeMode,
+    val language: AppLanguage,
+    val onboardingDone: Boolean
+)
 
 class MainViewModel(app: Application) : AndroidViewModel(app) {
     private val container = app as NamozApp
     private val prefs = container.preferences
+    private val settings = container.settings
+
+    /** null while DataStore is loading (avoids a theme/onboarding flash on every launch). */
+    val appPrefs: StateFlow<AppPrefs?> =
+        combine(settings.themeMode, settings.language, settings.onboardingDone) { theme, language, onboarding ->
+            AppPrefs(theme, language, onboarding)
+        }.map<AppPrefs, AppPrefs?> { it }
+            .stateIn(viewModelScope, SharingStarted.Eagerly, null)
 
     val protectionEnabled: StateFlow<Boolean> =
         prefs.protectionEnabled.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), false)
@@ -23,26 +39,16 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
         prefs.blacklist.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
 
     val adhanEnabled: StateFlow<Boolean> =
-        container.settings.adhanEnabled.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), true)
+        settings.adhanEnabled.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), true)
 
-    /** Today's cached timings (null until the first successful download). */
-    val today: StateFlow<PrayerDayEntity?> =
-        container.prayerRepository.observeDay(LocalDate.now())
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
-
-    /** null while DataStore is still loading (avoids flashing the onboarding screen on every launch). */
-    val onboardingDone: StateFlow<Boolean?> =
-        container.settings.onboardingDone.map<Boolean, Boolean?> { it }
-            .stateIn(viewModelScope, SharingStarted.Eagerly, null)
-
-    fun completeOnboarding() = viewModelScope.launch { container.settings.setOnboardingDone(true) }
+    fun setThemeMode(mode: ThemeMode) = viewModelScope.launch { settings.setThemeMode(mode) }
+    fun setLanguage(language: AppLanguage) = viewModelScope.launch { settings.setLanguage(language) }
+    fun completeOnboarding() = viewModelScope.launch { settings.setOnboardingDone(true) }
 
     fun setEnabled(value: Boolean) = viewModelScope.launch { prefs.setProtectionEnabled(value) }
-    fun setAdhanEnabled(value: Boolean) = viewModelScope.launch { container.settings.setAdhanEnabled(value) }
-    fun add(pkg: String) = viewModelScope.launch { prefs.addToBlacklist(pkg) }
-    fun remove(pkg: String) = viewModelScope.launch { prefs.removeFromBlacklist(pkg) }
+    fun setAdhanEnabled(value: Boolean) = viewModelScope.launch { settings.setAdhanEnabled(value) }
 
-    /** Foreground refresh: get a fresh GPS/network fix (if permitted), download, re-arm alarms. */
+    /** After the user grants location in Settings: fetch a fresh fix, download, re-arm alarms. */
     fun refreshPrayerTimes() = viewModelScope.launch {
         container.locationProvider.requestFreshLocation()
         container.prayerRepository.refresh()

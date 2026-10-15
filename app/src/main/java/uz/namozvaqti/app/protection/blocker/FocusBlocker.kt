@@ -3,6 +3,7 @@ package uz.namozvaqti.app.protection.blocker
 import android.content.Context
 import android.widget.Toast
 import uz.namozvaqti.app.R
+import uz.namozvaqti.app.locale.LocaleHelper
 import uz.namozvaqti.app.protection.ProtectionStateStore
 
 /** Decision + feedback shared by the Accessibility path and the UsageStats fallback path. */
@@ -21,6 +22,7 @@ object FocusBlocker {
         if (now - lastBlockAt < DEBOUNCE_MS) return
         lastBlockAt = now
         goHome()
-        Toast.makeText(context, R.string.toast_focus_on_prayer, Toast.LENGTH_LONG).show()
+        val message = LocaleHelper.forApp(context).getString(R.string.toast_focus_on_prayer)
+        Toast.makeText(context, message, Toast.LENGTH_LONG).show()
     }
 }

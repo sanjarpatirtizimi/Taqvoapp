@@ -8,6 +8,8 @@ import android.view.WindowManager
 import android.widget.FrameLayout
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.ViewCompositionStrategy
+import uz.namozvaqti.app.NamozApp
+import uz.namozvaqti.app.locale.ProvideAppLocale
 import uz.namozvaqti.app.protection.ProtectionPermissions
 import uz.namozvaqti.app.protection.ProtectionSession
 
@@ -34,7 +36,10 @@ class PrayerOverlayController(
             ComposeView(context).apply {
                 setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
                 setContent {
-                    PrayerOverlayScreen(session = session, onExitConfirmed = onExitConfirmed)
+                    // The overlay lives in a Service, so apply the in-app language explicitly.
+                    ProvideAppLocale((context.applicationContext as NamozApp).currentLanguage) {
+                        PrayerOverlayScreen(session = session, onExitConfirmed = onExitConfirmed)
+                    }
                 }
             }
         )

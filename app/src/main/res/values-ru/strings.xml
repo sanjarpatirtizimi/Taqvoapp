@@ -131,4 +131,79 @@
     <string name="onb_guide_huawei">1. Настройки → Аккумулятор → Запуск приложений → Namoz Vaqti → переключите на «Управлять вручную».\n2. Включите ВСЕ три пункта: «Автозапуск», «Косвенный запуск» и «Работа в фоновом режиме».\n3. Настройки → Аккумулятор → отключите режим энергосбережения.\n4. Закрепите приложение в списке недавних (шаг 4).</string>
     <string name="onb_guide_vivo">1. Настройки → Аккумулятор → Управление энергопотреблением в фоне → Namoz Vaqti → «Разрешить высокое энергопотребление в фоне».\n2. i Manager / Настройки → Приложения → Автозапуск → включите Namoz Vaqti.\n3. Закрепите приложение в списке недавних (шаг 4).</string>
     <string name="onb_guide_other">1. Настройки → Приложения → Namoz Vaqti → Аккумулятор → «Без ограничений» (или «Не оптимизировать»).\n2. Если на телефоне есть настройка автозапуска или фоновой активности, включите её для Namoz Vaqti.\n3. Закрепите приложение в списке недавних (шаг 4).</string>
+
+    <!-- Redesign -->
+    <string name="tab_settings">Настройки</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="action_allow">Разрешить</string>
+    <string name="action_start">Запустить</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_play">Включить</string>
+    <string name="status_granted">Разрешено</string>
+
+    <string name="home_next_prayer">Следующий намаз</string>
+    <string name="home_time_left">Осталось</string>
+    <string name="home_timetable_title">Время намаза на сегодня</string>
+    <string name="home_now_badge">Сейчас</string>
+    <string name="home_next_badge">Далее</string>
+    <string name="home_no_data_title">Время намаза ещё не загружено</string>
+    <string name="home_no_data_text">Подключитесь к интернету и повторите попытку.</string>
+    <string name="home_retry">Повторить</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="section_appearance">Оформление</string>
+    <string name="section_focus">Режим фокуса и разрешения</string>
+    <string name="section_alarms">Сигналы и батарея</string>
+    <string name="section_adhan">Азан</string>
+    <string name="setting_theme">Тема</string>
+    <string name="setting_language">Язык</string>
+    <string name="setting_theme_dialog_title">Выберите тему</string>
+    <string name="setting_language_dialog_title">Выберите язык</string>
+    <string name="focus_toggle_title">Режим фокуса во время намаза</string>
+    <string name="focus_toggle_desc">Блокировать отвлекающие приложения во время намаза</string>
+    <string name="focus_checklist_title">Что нужно настроить</string>
+    <string name="focus_checklist_hint">Разрешите это, чтобы режим фокуса работал надёжно.</string>
+    <string name="perm_overlay_title">Поверх других приложений</string>
+    <string name="perm_overlay_desc">Показывает экран намаза поверх всего</string>
+    <string name="perm_a11y_title">Блокировщик приложений</string>
+    <string name="perm_a11y_desc">Замечает запуск заблокированного приложения во время намаза</string>
+    <string name="perm_usage_title">Доступ к статистике (необязательно)</string>
+    <string name="perm_usage_desc">Запасной способ обнаружения заблокированных приложений</string>
+    <string name="focus_blocked_apps_title">Заблокированные приложения</string>
+    <string name="focus_blocked_apps_desc">Выбрано: %1$d</string>
+    <string name="focus_test_title">Пробный сеанс фокуса на 1 минуту</string>
+    <string name="focus_test_desc">Посмотрите, как выглядит экран намаза</string>
+    <string name="alarms_exact_title">Точные будильники</string>
+    <string name="alarms_exact_desc">Чтобы азан звучал точно вовремя</string>
+    <string name="alarms_notifications_title">Уведомления</string>
+    <string name="alarms_notifications_desc">Показывать азан и состояние сеанса фокуса</string>
+    <string name="alarms_battery_title">Оптимизация батареи</string>
+    <string name="alarms_battery_ok">Без ограничений – приложение работает в фоне</string>
+    <string name="alarms_battery_bad">Ограничено – система может остановить приложение</string>
+    <string name="alarms_guide_title">Руководство по батарее и автозапуску</string>
+    <string name="alarms_guide_desc">Пошаговая настройка для вашего телефона</string>
+    <string name="adhan_play_title">Воспроизводить азан</string>
+    <string name="adhan_play_desc">Включать азан в каждое время намаза</string>
+    <string name="adhan_test_title">Проверить азан</string>
+    <string name="adhan_test_desc">Включите сейчас, чтобы проверить громкость</string>
+    <string name="adhan_location_title">Местоположение для времени намаза</string>
+    <string name="adhan_location_desc">Разрешите доступ к местоположению для точного времени</string>
+
+    <string name="qibla_status_aligned">Вы смотрите в сторону Киблы</string>
+    <string name="qibla_status_turn">Поворачивайтесь, пока Кааба не окажется у верхней метки</string>
+    <string name="qibla_degrees_from_north">%1$d° от севера</string>
+    <string name="qibla_distance_km">%1$d км до Мекки</string>
+    <string name="qibla_info_no_sensor">У телефона нет датчика компаса, поэтому живой компас недоступен. Направление Киблы всё равно показано.</string>
+    <string name="qibla_info_calibrate">Для точности покачайте телефон «восьмёркой» и держите его вдали от магнитов.</string>
+
+    <string name="tasbeeh_tap_anywhere">Нажимайте в любом месте экрана</string>
+    <string name="tasbeeh_total">Всего: %1$d</string>
+    <string name="zikr_name_1">Субханаллах</string>
+    <string name="zikr_name_2">Альхамдулиллах</string>
+    <string name="zikr_name_3">Аллаху Акбар</string>
+    <string name="zikr_meaning_1">Пречист Аллах</string>
+    <string name="zikr_meaning_2">Хвала Аллаху</string>
+    <string name="zikr_meaning_3">Аллах превыше всего</string>
 </resources>

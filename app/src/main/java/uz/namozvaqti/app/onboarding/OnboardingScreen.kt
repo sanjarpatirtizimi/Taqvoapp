@@ -39,7 +39,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import uz.namozvaqti.app.NamozApp
 import uz.namozvaqti.app.R
-import uz.namozvaqti.app.ui.PermissionRow
+import uz.namozvaqti.app.ui.components.PermissionRow
 
 /**
  * Reliability onboarding: unrestricted battery, OEM autostart, exact alarms, notifications,

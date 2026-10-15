@@ -24,6 +24,7 @@ import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import uz.namozvaqti.app.NamozApp
 import uz.namozvaqti.app.R
+import uz.namozvaqti.app.locale.LocaleHelper
 import uz.namozvaqti.app.protection.blocker.FocusBlocker
 import uz.namozvaqti.app.protection.blocker.UsageStatsForegroundDetector
 import uz.namozvaqti.app.protection.overlay.PrayerOverlayController
@@ -54,7 +55,8 @@ class ProtectionService : Service() {
             endSession()
             return START_NOT_STICKY
         }
-        val prayer = intent?.getStringExtra(EXTRA_PRAYER) ?: getString(R.string.prayer_generic)
+        val prayer = intent?.getStringExtra(EXTRA_PRAYER)
+            ?: LocaleHelper.forApp(this).getString(R.string.prayer_generic)
         val durationMs = intent?.getLongExtra(EXTRA_DURATION_MS, DEFAULT_DURATION_MS) ?: DEFAULT_DURATION_MS
 
         // Must be called within ~5s of startForegroundService().
@@ -135,12 +137,13 @@ class ProtectionService : Service() {
             this, 1, Intent(this, ProtectionService::class.java).setAction(ACTION_STOP),
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
         )
+        val text = LocaleHelper.forApp(this) // the language chosen in Settings
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_stat_namoz)
-            .setContentTitle(getString(R.string.notif_title_session, prayer))
-            .setContentText(getString(R.string.notif_text_session))
+            .setContentTitle(text.getString(R.string.notif_title_session, prayer))
+            .setContentText(text.getString(R.string.notif_text_session))
             .setContentIntent(open)
-            .addAction(0, getString(R.string.notif_end_session), stop) // second, always-available escape hatch
+            .addAction(0, text.getString(R.string.notif_end_session), stop) // second, always-available escape hatch
             .setOngoing(true)
             .setCategory(NotificationCompat.CATEGORY_SERVICE)
             .build()

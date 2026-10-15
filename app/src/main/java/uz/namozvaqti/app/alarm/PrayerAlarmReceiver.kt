@@ -8,6 +8,7 @@ import kotlinx.coroutines.launch
 import uz.namozvaqti.app.NamozApp
 import uz.namozvaqti.app.adhan.AdhanService
 import uz.namozvaqti.app.domain.Prayer
+import uz.namozvaqti.app.locale.LocaleHelper
 import uz.namozvaqti.app.protection.ProtectionService
 
 /**
@@ -38,7 +39,8 @@ class PrayerAlarmReceiver : BroadcastReceiver() {
                     }
                     if (app.preferences.protectionEnabled.first()) {
                         ProtectionService.start(
-                            app, app.getString(prayer.nameRes), ProtectionService.DEFAULT_DURATION_MS
+                            app, LocaleHelper.forApp(app).getString(prayer.nameRes),
+                            ProtectionService.DEFAULT_DURATION_MS
                         )
                     }
                 }

@@ -15,6 +15,9 @@ interface PrayerDao {
     fun observeDay(date: String): Flow<PrayerDayEntity?>
 
     @Query("SELECT * FROM prayer_days WHERE date >= :from ORDER BY date ASC LIMIT :limit")
+    fun observeFrom(from: String, limit: Int): Flow<List<PrayerDayEntity>>
+
+    @Query("SELECT * FROM prayer_days WHERE date >= :from ORDER BY date ASC LIMIT :limit")
     suspend fun getFrom(from: String, limit: Int): List<PrayerDayEntity>
 
     @Query("DELETE FROM prayer_days WHERE date < :before")

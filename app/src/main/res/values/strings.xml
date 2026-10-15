@@ -150,4 +150,90 @@
     <string name="onb_guide_huawei">1. Settings → Battery → App launch → Namoz Vaqti → switch to “Manage manually”.\n2. Enable ALL three: “Auto-launch”, “Secondary launch” and “Run in background”.\n3. Settings → Battery → turn off Power saving mode.\n4. Lock the app in Recents (step 4).</string>
     <string name="onb_guide_vivo">1. Settings → Battery → Background power consumption management → Namoz Vaqti → “Allow high background power consumption”.\n2. i Manager / Settings → Apps → Autostart → enable Namoz Vaqti.\n3. Lock the app in Recents (step 4).</string>
     <string name="onb_guide_other">1. Settings → Apps → Namoz Vaqti → Battery → “Unrestricted” (or “Don\'t optimize”).\n2. If your phone has an Autostart or Background activity setting, enable it for Namoz Vaqti.\n3. Lock the app in Recents (step 4).</string>
+
+    <!-- ===== Redesign: navigation, languages, themes ===== -->
+    <string name="tab_settings">Settings</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="lang_ru" translatable="false">Русский</string>
+    <string name="lang_uz" translatable="false">O‘zbekcha</string>
+    <string name="lang_uz_cyrl" translatable="false">Ўзбекча</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_start">Start</string>
+    <string name="action_open">Open</string>
+    <string name="action_play">Play</string>
+    <string name="status_granted">Allowed</string>
+
+    <!-- ===== Home ===== -->
+    <string name="home_next_prayer">Next prayer</string>
+    <string name="home_time_left">Time left</string>
+    <string name="home_timetable_title">Today\'s prayer times</string>
+    <string name="home_now_badge">Now</string>
+    <string name="home_next_badge">Next</string>
+    <string name="home_no_data_title">Prayer times are not loaded yet</string>
+    <string name="home_no_data_text">Connect to the internet and try again.</string>
+    <string name="home_retry">Try again</string>
+
+    <!-- ===== Settings ===== -->
+    <string name="settings_title">Settings</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_focus">Focus mode &amp; permissions</string>
+    <string name="section_alarms">Alarms &amp; battery</string>
+    <string name="section_adhan">Adhan</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_theme_dialog_title">Choose theme</string>
+    <string name="setting_language_dialog_title">Choose language</string>
+    <string name="focus_toggle_title">Prayer focus mode</string>
+    <string name="focus_toggle_desc">Block distracting apps when it is time to pray</string>
+    <string name="focus_checklist_title">Setup checklist</string>
+    <string name="focus_checklist_hint">Allow these so the focus mode can work reliably.</string>
+    <string name="perm_overlay_title">Display over other apps</string>
+    <string name="perm_overlay_desc">Shows the prayer screen on top of everything</string>
+    <string name="perm_a11y_title">App blocker</string>
+    <string name="perm_a11y_desc">Notices when a blocked app opens during prayer</string>
+    <string name="perm_usage_title">Usage access (optional)</string>
+    <string name="perm_usage_desc">A backup way to detect blocked apps</string>
+    <string name="focus_blocked_apps_title">Blocked apps</string>
+    <string name="focus_blocked_apps_desc">%1$d selected</string>
+    <string name="focus_test_title">Try a 1-minute focus session</string>
+    <string name="focus_test_desc">See what the prayer screen looks like</string>
+    <string name="alarms_exact_title">Exact alarms</string>
+    <string name="alarms_exact_desc">So the adhan sounds exactly on time</string>
+    <string name="alarms_notifications_title">Notifications</string>
+    <string name="alarms_notifications_desc">Show the adhan and focus session status</string>
+    <string name="alarms_battery_title">Battery optimization</string>
+    <string name="alarms_battery_ok">Unrestricted – the app can run in the background</string>
+    <string name="alarms_battery_bad">Limited – the system may stop the app</string>
+    <string name="alarms_guide_title">Battery &amp; autostart guide</string>
+    <string name="alarms_guide_desc">Step-by-step setup for your phone</string>
+    <string name="adhan_play_title">Play adhan</string>
+    <string name="adhan_play_desc">Sound the adhan at each prayer time</string>
+    <string name="adhan_test_title">Test adhan</string>
+    <string name="adhan_test_desc">Play it now to check the volume</string>
+    <string name="adhan_location_title">Prayer times location</string>
+    <string name="adhan_location_desc">Allow location for accurate prayer times</string>
+
+    <!-- ===== Qibla (redesign) ===== -->
+    <string name="qibla_status_aligned">You are facing the Qibla</string>
+    <string name="qibla_status_turn">Turn until the Kaaba reaches the top marker</string>
+    <string name="qibla_degrees_from_north">%1$d° from north</string>
+    <string name="qibla_distance_km">%1$d km to Makkah</string>
+    <string name="qibla_info_no_sensor">Your phone has no compass sensor, so the live compass is unavailable. The Qibla direction is still shown.</string>
+    <string name="qibla_info_calibrate">For a better reading, move your phone in a figure-8 and keep it away from magnets.</string>
+
+    <!-- ===== Tasbeeh (redesign) ===== -->
+    <string name="tasbeeh_tap_anywhere">Tap anywhere to count</string>
+    <string name="tasbeeh_total">Total: %1$d</string>
+    <string name="zikr_ar_1" translatable="false">سُبْحَانَ ٱللّٰه</string>
+    <string name="zikr_ar_2" translatable="false">ٱلْحَمْدُ لِلّٰه</string>
+    <string name="zikr_ar_3" translatable="false">ٱللّٰهُ أَكْبَر</string>
+    <string name="zikr_name_1">Subhanallah</string>
+    <string name="zikr_name_2">Alhamdulillah</string>
+    <string name="zikr_name_3">Allahu Akbar</string>
+    <string name="zikr_meaning_1">Glory be to Allah</string>
+    <string name="zikr_meaning_2">All praise is for Allah</string>
+    <string name="zikr_meaning_3">Allah is the Greatest</string>
 </resources>

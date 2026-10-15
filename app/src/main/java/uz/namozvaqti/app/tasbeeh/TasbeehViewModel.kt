@@ -13,6 +13,9 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import uz.namozvaqti.app.NamozApp
 
+/** Taps per zikr; the 33rd tap gives the long vibration and switches to the next zikr. */
+const val ZIKR_CYCLE = 33
+
 /**
  * Survives rotation (ViewModel) and process death / app switching (DataStore).
  * Writes are debounced so rapid tapping doesn't hit the disk on every tap.
@@ -30,7 +33,9 @@ class TasbeehViewModel(app: Application) : AndroidViewModel(app) {
 
     @OptIn(FlowPreview::class)
     private val persistJob = viewModelScope.launch {
-        _state.value = store.read()
+        // The UI cycles Subhanallah -> Alhamdulillah -> Allahu Akbar every 33 taps, so the round
+        // length is fixed (older builds let the user pick 99/100; ignore that saved value).
+        _state.value = store.read().copy(target = ZIKR_CYCLE)
         loaded = true
         // drop(1): skip the value we just loaded; persist every later change after 150 ms of quiet.
         _state.drop(1).debounce(150).collect { store.save(it) }

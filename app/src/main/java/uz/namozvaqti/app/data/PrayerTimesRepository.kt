@@ -21,6 +21,10 @@ class PrayerTimesRepository(
 ) {
     fun observeDay(date: LocalDate): Flow<PrayerDayEntity?> = dao.observeDay(date.toString())
 
+    /** [limit] days starting at [date] (used by Home: today + tomorrow for the countdown). */
+    fun observeFrom(date: LocalDate, limit: Int): Flow<List<PrayerDayEntity>> =
+        dao.observeFrom(date.toString(), limit)
+
     /**
      * Downloads the current + next month and upserts them into Room (cache survives offline).
      * Returns true if at least one month was fetched. On total failure the old cache is untouched.

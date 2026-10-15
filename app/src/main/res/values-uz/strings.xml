@@ -131,4 +131,79 @@
     <string name="onb_guide_huawei">1. Sozlamalar → Batareya → Ilovani ishga tushirish → Namoz Vaqti → “Qo‘lda boshqarish” ga o‘tkazing.\n2. UCHALASINI ham yoqing: “Avtoishga tushirish”, “Ikkilamchi ishga tushirish” va “Fonda ishlash”.\n3. Sozlamalar → Batareya → Quvvat tejash rejimini o‘chiring.\n4. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
     <string name="onb_guide_vivo">1. Sozlamalar → Batareya → Fon rejimida quvvat sarfini boshqarish → Namoz Vaqti → “Fonda yuqori quvvat sarfiga ruxsat”.\n2. i Manager / Sozlamalar → Ilovalar → Avtoishga tushirish → Namoz Vaqti’ni yoqing.\n3. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
     <string name="onb_guide_other">1. Sozlamalar → Ilovalar → Namoz Vaqti → Batareya → “Cheklovsiz” (yoki “Optimallashtirmaslik”).\n2. Telefoningizda Avtoishga tushirish yoki Fon faoliyati sozlamasi bo‘lsa, uni Namoz Vaqti uchun yoqing.\n3. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
+
+    <!-- Redesign -->
+    <string name="tab_settings">Sozlamalar</string>
+    <string name="theme_system">Tizim bo‘yicha</string>
+    <string name="theme_light">Yorug‘</string>
+    <string name="theme_dark">Qorong‘i</string>
+    <string name="action_allow">Ruxsat berish</string>
+    <string name="action_start">Boshlash</string>
+    <string name="action_open">Ochish</string>
+    <string name="action_play">Eshittirish</string>
+    <string name="status_granted">Ruxsat berilgan</string>
+
+    <string name="home_next_prayer">Keyingi namoz</string>
+    <string name="home_time_left">Qolgan vaqt</string>
+    <string name="home_timetable_title">Bugungi namoz vaqtlari</string>
+    <string name="home_now_badge">Hozir</string>
+    <string name="home_next_badge">Keyingi</string>
+    <string name="home_no_data_title">Namoz vaqtlari hali yuklanmagan</string>
+    <string name="home_no_data_text">Internetga ulanib, qayta urinib ko‘ring.</string>
+    <string name="home_retry">Qayta urinish</string>
+
+    <string name="settings_title">Sozlamalar</string>
+    <string name="section_appearance">Ko‘rinish</string>
+    <string name="section_focus">Fokus rejimi va ruxsatlar</string>
+    <string name="section_alarms">Signallar va batareya</string>
+    <string name="section_adhan">Azon</string>
+    <string name="setting_theme">Mavzu</string>
+    <string name="setting_language">Til</string>
+    <string name="setting_theme_dialog_title">Mavzuni tanlang</string>
+    <string name="setting_language_dialog_title">Tilni tanlang</string>
+    <string name="focus_toggle_title">Namoz vaqtida fokus rejimi</string>
+    <string name="focus_toggle_desc">Namoz vaqtida chalg‘ituvchi ilovalarni bloklash</string>
+    <string name="focus_checklist_title">Sozlash ro‘yxati</string>
+    <string name="focus_checklist_hint">Fokus rejimi ishonchli ishlashi uchun ularga ruxsat bering.</string>
+    <string name="perm_overlay_title">Boshqa ilovalar ustida ko‘rsatish</string>
+    <string name="perm_overlay_desc">Namoz ekranini hamma narsa ustida ko‘rsatadi</string>
+    <string name="perm_a11y_title">Ilova bloklagich</string>
+    <string name="perm_a11y_desc">Namoz paytida bloklangan ilova ochilganini aniqlaydi</string>
+    <string name="perm_usage_title">Foydalanish statistikasi (ixtiyoriy)</string>
+    <string name="perm_usage_desc">Bloklangan ilovalarni aniqlashning zaxira usuli</string>
+    <string name="focus_blocked_apps_title">Bloklangan ilovalar</string>
+    <string name="focus_blocked_apps_desc">%1$d ta tanlangan</string>
+    <string name="focus_test_title">1 daqiqalik sinov seansi</string>
+    <string name="focus_test_desc">Namoz ekrani qanday ko‘rinishini ko‘ring</string>
+    <string name="alarms_exact_title">Aniq signallar</string>
+    <string name="alarms_exact_desc">Azon aynan o‘z vaqtida eshitilishi uchun</string>
+    <string name="alarms_notifications_title">Bildirishnomalar</string>
+    <string name="alarms_notifications_desc">Azon va fokus seansi holatini ko‘rsatish</string>
+    <string name="alarms_battery_title">Batareya optimallashtirish</string>
+    <string name="alarms_battery_ok">Cheklovsiz – ilova fonda ishlay oladi</string>
+    <string name="alarms_battery_bad">Cheklangan – tizim ilovani to‘xtatishi mumkin</string>
+    <string name="alarms_guide_title">Batareya va avtoishga tushirish qo‘llanmasi</string>
+    <string name="alarms_guide_desc">Telefoningiz uchun bosqichma-bosqich sozlash</string>
+    <string name="adhan_play_title">Azonni eshittirish</string>
+    <string name="adhan_play_desc">Har bir namoz vaqtida azon eshittirish</string>
+    <string name="adhan_test_title">Azonni sinash</string>
+    <string name="adhan_test_desc">Ovozni tekshirish uchun hozir eshittiring</string>
+    <string name="adhan_location_title">Namoz vaqtlari uchun joylashuv</string>
+    <string name="adhan_location_desc">Aniq vaqtlar uchun joylashuvga ruxsat bering</string>
+
+    <string name="qibla_status_aligned">Siz Qibla tomonga qaragansiz</string>
+    <string name="qibla_status_turn">Ka’ba yuqoridagi belgiga yetguncha buriling</string>
+    <string name="qibla_degrees_from_north">Shimoldan %1$d°</string>
+    <string name="qibla_distance_km">Makkagacha %1$d km</string>
+    <string name="qibla_info_no_sensor">Telefoningizda kompas sensori yo‘q, shuning uchun jonli kompas ishlamaydi. Qibla yo‘nalishi baribir ko‘rsatiladi.</string>
+    <string name="qibla_info_calibrate">Aniqroq natija uchun telefonni “8” shaklida harakatlantiring va magnitlardan uzoq tuting.</string>
+
+    <string name="tasbeeh_tap_anywhere">Sanash uchun istalgan joyga bosing</string>
+    <string name="tasbeeh_total">Jami: %1$d</string>
+    <string name="zikr_name_1">Subhanalloh</string>
+    <string name="zikr_name_2">Alhamdulillah</string>
+    <string name="zikr_name_3">Allohu akbar</string>
+    <string name="zikr_meaning_1">Alloh pokdir</string>
+    <string name="zikr_meaning_2">Alloh uchun hamdlar bo‘lsin</string>
+    <string name="zikr_meaning_3">Alloh eng ulug‘dir</string>
 </resources>

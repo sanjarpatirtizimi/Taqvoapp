@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ўзбекча (кирилл) – locale tag uz-Cyrl -->
+<resources>
+    <string name="a11y_service_label">Namoz Vaqti – Намозда диққат</string>
+    <string name="a11y_service_description">Сиз бошлаган намоз фокус сеанси давомида бу хизмат қайси илова очилганини текширади. Агар у блокланган иловалар рўйхатида бўлса, сизни бош экранга қайтаради. У экрандаги матн, парол ёки хабарларни ўқимайди ва ҳеч қаерга маълумот юбормайди.</string>
+
+    <string name="action_back">Орқага</string>
+    <string name="action_clear">Тозалаш</string>
+    <string name="action_cancel">Бекор қилиш</string>
+    <string name="action_reset">Тиклаш</string>
+    <string name="action_enable">Ёқиш</string>
+    <string name="action_done">Тайёр</string>
+    <string name="action_skip">Ҳозирча ўтказиб юбориш</string>
+    <string name="status_on">✓ Ёқилган</string>
+
+    <string name="tab_home">Бош саҳифа</string>
+    <string name="tab_qibla">Қибла</string>
+    <string name="tab_tasbeeh">Тасбеҳ</string>
+    <string name="tab_settings">Созламалар</string>
+
+    <string name="prayer_fajr">Бомдод</string>
+    <string name="prayer_sunrise">Қуёш</string>
+    <string name="prayer_dhuhr">Пешин</string>
+    <string name="prayer_asr">Аср</string>
+    <string name="prayer_maghrib">Шом</string>
+    <string name="prayer_isha">Хуфтон</string>
+    <string name="prayer_generic">Намоз</string>
+
+    <string name="notif_channel_protection">Намоз фокус сеанси</string>
+    <string name="notif_title_session">%1$s – фокус сеанси</string>
+    <string name="notif_text_session">Иловани очиш учун босинг. Сеансни исталган пайт тугатишингиз мумкин.</string>
+    <string name="notif_end_session">Сеансни тугатиш</string>
+    <string name="notif_channel_adhan">Азон</string>
+    <string name="notif_adhan_title">%1$s вақти</string>
+    <string name="notif_adhan_text">Азон эшиттирилмоқда</string>
+    <string name="notif_adhan_stop">Тўхтатиш</string>
+    <string name="toast_focus_on_prayer">Намозга эътибор қаратинг 🤲</string>
+
+    <string name="prayer_loading">Намоз вақтлари юкланмоқда…</string>
+    <string name="btn_use_location">Жойлашувимдан фойдаланиш</string>
+    <string name="label_play_adhan">Азонни эшиттириш</string>
+    <string name="perm_exact_alarms">Аниқ сигналлар (Сигналлар ва эслатмалар)</string>
+    <string name="btn_allow_notifications">Билдиришномаларга рухсат бериш</string>
+    <string name="btn_test_adhan">Азонни ҳозир синаш</string>
+    <string name="focus_title">Намозда диққат</string>
+    <string name="focus_enable">Намоз вақтида фокусни ёқиш</string>
+    <string name="perm_overlay">1. Бошқа иловалар устида кўрсатиш (overlay)</string>
+    <string name="perm_accessibility">2. Илова блоклагич (Махсус имкониятлар)</string>
+    <string name="perm_usage">3. Фойдаланиш статистикаси (ихтиёрий захира)</string>
+    <string name="btn_choose_apps">Блокланадиган иловаларни танлаш (%1$d та танланган)</string>
+    <string name="btn_test_session">1 дақиқалик синов сеансини бошлаш</string>
+    <string name="test_session_name">Синов</string>
+    <string name="btn_reliability">Сигналлар ишончли ишлаши (батарея созламаси)</string>
+
+    <string name="a11y_disclosure_title">Намоз вақтида иловаларни блокламоққа рухсат берасизми?</string>
+    <string name="a11y_disclosure_body">Namoz Vaqti Махсус имкониятлар хизматидан ФАҚАТ намоз фокус сеанси давомида қайси илова очилганини аниқлаш учун фойдаланади, шунда СИЗ танлаган блокланган иловалар тўхтатилади.\n\n• У экранингизни, матнлар, паролларни ёки хабарларни ўқимайди.\n• Ҳеч қандай маълумот йиғмайди ва улашмайди.\n• Фақат сиз ёққан намоз сеанслари давомида ишлайди.\n• Уни исталган вақтда Созламалар → Махсус имкониятлар бўлимида ўчиришингиз мумкин.</string>
+    <string name="a11y_disclosure_agree">Розиман, давом этиш</string>
+    <string name="a11y_disclosure_decline">Йўқ, раҳмат</string>
+
+    <string name="picker_title">Блокланган иловалар (%1$d)</string>
+    <string name="picker_search">Иловаларни қидириш</string>
+    <string name="filter_all">Ҳаммаси</string>
+    <string name="filter_suggested">Тавсия этилган</string>
+    <string name="filter_social">Ижтимоий</string>
+    <string name="filter_games">Ўйинлар</string>
+    <string name="filter_selected">Танланган</string>
+    <string name="picker_select_suggested">Чалғитувчи %1$d та тавсия этилган иловани танлаш</string>
+    <string name="picker_no_apps">Иловалар топилмади</string>
+
+    <string name="qibla_title">Қибла</string>
+    <string name="qibla_no_sensor">Бу қурилмада айланиш вектори сенсори йўқ, шунинг учун компас ишламайди.\nҚибла йўналиши қуйида барибир кўрсатилади.</string>
+    <string name="qibla_finding">Жойлашув аниқланмоқда…</string>
+    <string name="qibla_aligned">✓ Сиз Қибла томонга қарагансиз</string>
+    <string name="qibla_turn">Каъба юқоридаги белгига етгунча бурилинг</string>
+    <string name="qibla_bearing">Қибла йўналиши: шимолдан %1$d°</string>
+    <string name="qibla_bearing_distance">Қибла йўналиши: шимолдан %1$d° • Маккагача %2$d км</string>
+    <string name="qibla_heading">Сизнинг йўналишингиз: %1$d°</string>
+    <string name="qibla_calibrate">Компасни калибрлаш керак: телефонни “8” шаклида ҳаракатлантиринг ва магнит ҳамда металлдан узоқроқ тутинг.</string>
+    <string name="qibla_fallback_location">Жойлашув сифатида Тошкент ишлатилмоқда. Аниқ Қибла учун жойлашувга рухсат беринг.</string>
+    <string name="qibla_hold_flat">Энг яхши аниқлик учун телефонни текис ушланг.</string>
+
+    <string name="tasbeeh_title">Тасбеҳ</string>
+    <string name="tasbeeh_tap_hint">Санаш учун доирага босинг</string>
+    <string name="tasbeeh_counter_desc">Тасбеҳ ҳисоблагичи, %1$d. Санаш учун икки марта босинг.</string>
+    <string name="tasbeeh_count_label">Санаш</string>
+    <string name="tasbeeh_rounds">Айланишлар: %1$d</string>
+    <string name="tasbeeh_undo">Бекор қилиш −1</string>
+    <string name="tasbeeh_vibration">Тебраниш</string>
+    <string name="tasbeeh_reset_title">Ҳисоблагич тиклансинми?</string>
+    <string name="tasbeeh_reset_text">Жорий ҳисоб (%1$d) 0 га қайтарилади.</string>
+
+    <string name="overlay_title">Намоз вақти бўлди</string>
+    <string name="overlay_subtitle">Телефонни қўйинг ва намоз ўқинг.</string>
+    <string name="overlay_hold_to_exit">Чиқиш учун босиб туринг (%1$d с)</string>
+    <string name="overlay_keep_holding">Босиб туринг… %1$d с</string>
+
+    <string name="oem_other">Бошқа</string>
+
+    <string name="onb_title">Namoz Vaqti доим ишлаши учун</string>
+    <string name="onb_intro">Кўп телефонлар (Xiaomi, Samsung, Oppo, Huawei ва бошқалар) батареяни тежаш учун иловаларни фонда тўхтатади. Бу созламаларсиз азон эшитилмаслиги ва намоз фокуси ишламай қолиши мумкин.</string>
+    <string name="onb_device_detected">Аниқланган қурилма: %1$s</string>
+
+    <string name="onb_step_battery_title">1-қадам – Батарея чекловисиз</string>
+    <string name="onb_step_battery_desc">Иловага фонда батарея чекловисиз ишлашга рухсат беринг.</string>
+    <string name="onb_battery_status_ok">✓ Бу илова учун батарея оптималлаштириш ўчирилган</string>
+    <string name="onb_battery_status_bad">Бу илова учун батарея оптималлаштириш ЁҚИЛГАН</string>
+    <string name="onb_btn_battery_list">Батарея оптималлаштириш рўйхатини очиш</string>
+    <string name="onb_btn_battery_oem">%1$s батарея созламаларини очиш</string>
+
+    <string name="onb_step_autostart_title">2-қадам – Автоишга тушириш</string>
+    <string name="onb_step_autostart_desc">Қайта ёқилгандан кейин илова ўзи ишга тушишига ва сигналлар уни уйғотишига рухсат беринг.</string>
+    <string name="onb_btn_autostart">Автоишга тушириш созламаларини очиш</string>
+    <string name="onb_autostart_confirm">Мен уни ёқдим</string>
+    <string name="onb_autostart_not_needed">Бу телефонда алоҳида автоишга тушириш экрани йўқ. 1-қадам етарли.</string>
+
+    <string name="onb_step_alarm_title">3-қадам – Аниқ сигналлар ва билдиришномалар</string>
+    <string name="onb_step_alarm_desc">Азон айнан ўз вақтида эшитилиши учун керак.</string>
+
+    <string name="onb_step_lock_title">4-қадам – Иловани сўнгги иловалар рўйхатида қулфлаш</string>
+    <string name="onb_step_lock_desc">Сўнгги иловалар экранини очинг ва Namoz Vaqti’ни қулфланг ёки маҳкамланг (телефонингизга қараб карта устини узоқ босинг ёки қулф белгисини босинг). Қулфланган иловалар “Ҳаммасини тозалаш” билан ёпилмайди.</string>
+
+    <string name="onb_step_restricted_title">Агар “Махсус имкониятлар” хира бўлса</string>
+    <string name="onb_step_restricted_desc">Android 13+ да APK файлдан ўрнатилган иловаларда “Чекланган созламалар” бўлиши мумкин. “Илова ҳақида” саҳифасини очинг, юқори ўнгдаги ⋮ ни босинг ва “Чекланган созламаларга рухсат бериш” ни танланг, сўнг хизматни қайта ёқинг.</string>
+    <string name="onb_btn_app_info">“Илова ҳақида” саҳифасини очиш</string>
+
+    <string name="onb_oem_guide_title">%1$s учун қўлда бажариладиган қадамлар</string>
+    <string name="onb_open_failed">Бу экранни ушбу телефонда очиб бўлмади. Унинг ўрнига “Илова ҳақида” очилди — қуйидаги қўлда бажариладиган қадамларга амал қилинг.</string>
+
+    <string name="onb_guide_xiaomi">1. Созламалар → Иловалар → Иловаларни бошқариш → Namoz Vaqti → Автоишга тушириш: ЁҚИЛГАН.\n2. Шу саҳифада → Батарея тежаш → “Чекловларсиз”.\n3. Созламалар → Батарея → ҳар қандай батарея тежаш режимини ўчиринг.\n4. Иловани сўнгги иловалар рўйхатида қулфланг (4-қадам).</string>
+    <string name="onb_guide_samsung">1. Созламалар → Иловалар → Namoz Vaqti → Батарея → “Чекловсиз”.\n2. Созламалар → Батарея → Фонда фойдаланиш чекловлари → “Ишлатилмаётган иловаларни ухлатиш” ни ўчиринг; Namoz Vaqti “Ухлаётган иловалар” ёки “Чуқур ухлаётган иловалар” рўйхатида БЎЛМАСЛИГИ керак ва уни “Ҳеч қачон ухламайдиган иловалар” га қўшинг.\n3. Иловани сўнгги иловалар рўйхатида қулфланг (4-қадам).</string>
+    <string name="onb_guide_oppo">1. Созламалар → Иловалар → Иловаларни бошқариш → Namoz Vaqti → Батареядан фойдаланиш → “Фон фаолиятига рухсат” ва “Автоишга туширишга рухсат”.\n2. Созламалар → Батарея → Namoz Vaqti учун “Батареядан фойдаланишни оптималлаштириш” ни ўчиринг (“Оптималлаштирмаслик”).\n3. Махфийлик / Рухсатлар → Ишга тушириш менежери (Автоишга тушириш) → Namoz Vaqti’ни ёқинг.\n4. Иловани сўнгги иловалар рўйхатида қулфланг (4-қадам).</string>
+    <string name="onb_guide_huawei">1. Созламалар → Батарея → Иловани ишга тушириш → Namoz Vaqti → “Қўлда бошқариш” га ўтказинг.\n2. УЧАЛАСИНИ ҳам ёқинг: “Автоишга тушириш”, “Иккиламчи ишга тушириш” ва “Фонда ишлаш”.\n3. Созламалар → Батарея → Қувват тежаш режимини ўчиринг.\n4. Иловани сўнгги иловалар рўйхатида қулфланг (4-қадам).</string>
+    <string name="onb_guide_vivo">1. Созламалар → Батарея → Фон режимида қувват сарфини бошқариш → Namoz Vaqti → “Фонда юқори қувват сарфига рухсат”.\n2. i Manager / Созламалар → Иловалар → Автоишга тушириш → Namoz Vaqti’ни ёқинг.\n3. Иловани сўнгги иловалар рўйхатида қулфланг (4-қадам).</string>
+    <string name="onb_guide_other">1. Созламалар → Иловалар → Namoz Vaqti → Батарея → “Чекловсиз” (ёки “Оптималлаштирмаслик”).\n2. Телефонингизда Автоишга тушириш ёки Фон фаолияти созламаси бўлса, уни Namoz Vaqti учун ёқинг.\n3. Иловани сўнгги иловалар рўйхатида қулфланг (4-қадам).</string>
+
+    <!-- Redesign -->
+    <string name="theme_system">Тизим бўйича</string>
+    <string name="theme_light">Ёруғ</string>
+    <string name="theme_dark">Қоронғи</string>
+    <string name="action_allow">Рухсат бериш</string>
+    <string name="action_start">Бошлаш</string>
+    <string name="action_open">Очиш</string>
+    <string name="action_play">Эшиттириш</string>
+    <string name="status_granted">Рухсат берилган</string>
+
+    <string name="home_next_prayer">Кейинги намоз</string>
+    <string name="home_time_left">Қолган вақт</string>
+    <string name="home_timetable_title">Бугунги намоз вақтлари</string>
+    <string name="home_now_badge">Ҳозир</string>
+    <string name="home_next_badge">Кейинги</string>
+    <string name="home_no_data_title">Намоз вақтлари ҳали юкланмаган</string>
+    <string name="home_no_data_text">Интернетга уланиб, қайта уриниб кўринг.</string>
+    <string name="home_retry">Қайта уриниш</string>
+
+    <string name="settings_title">Созламалар</string>
+    <string name="section_appearance">Кўриниш</string>
+    <string name="section_focus">Фокус режими ва рухсатлар</string>
+    <string name="section_alarms">Сигналлар ва батарея</string>
+    <string name="section_adhan">Азон</string>
+    <string name="setting_theme">Мавзу</string>
+    <string name="setting_language">Тил</string>
+    <string name="setting_theme_dialog_title">Мавзуни танланг</string>
+    <string name="setting_language_dialog_title">Тилни танланг</string>
+    <string name="focus_toggle_title">Намоз вақтида фокус режими</string>
+    <string name="focus_toggle_desc">Намоз вақтида чалғитувчи иловаларни блоклаш</string>
+    <string name="focus_checklist_title">Созлаш рўйхати</string>
+    <string name="focus_checklist_hint">Фокус режими ишончли ишлаши учун уларга рухсат беринг.</string>
+    <string name="perm_overlay_title">Бошқа иловалар устида кўрсатиш</string>
+    <string name="perm_overlay_desc">Намоз экранини ҳамма нарса устида кўрсатади</string>
+    <string name="perm_a11y_title">Илова блоклагич</string>
+    <string name="perm_a11y_desc">Намоз пайтида блокланган илова очилганини аниқлайди</string>
+    <string name="perm_usage_title">Фойдаланиш статистикаси (ихтиёрий)</string>
+    <string name="perm_usage_desc">Блокланган иловаларни аниқлашнинг захира усули</string>
+    <string name="focus_blocked_apps_title">Блокланган иловалар</string>
+    <string name="focus_blocked_apps_desc">%1$d та танланган</string>
+    <string name="focus_test_title">1 дақиқалик синов сеанси</string>
+    <string name="focus_test_desc">Намоз экрани қандай кўринишини кўринг</string>
+    <string name="alarms_exact_title">Аниқ сигналлар</string>
+    <string name="alarms_exact_desc">Азон айнан ўз вақтида эшитилиши учун</string>
+    <string name="alarms_notifications_title">Билдиришномалар</string>
+    <string name="alarms_notifications_desc">Азон ва фокус сеанси ҳолатини кўрсатиш</string>
+    <string name="alarms_battery_title">Батарея оптималлаштириш</string>
+    <string name="alarms_battery_ok">Чекловсиз – илова фонда ишлай олади</string>
+    <string name="alarms_battery_bad">Чекланган – тизим иловани тўхтатиши мумкин</string>
+    <string name="alarms_guide_title">Батарея ва автоишга тушириш қўлланмаси</string>
+    <string name="alarms_guide_desc">Телефонингиз учун босқичма-босқич созлаш</string>
+    <string name="adhan_play_title">Азонни эшиттириш</string>
+    <string name="adhan_play_desc">Ҳар бир намоз вақтида азон эшиттириш</string>
+    <string name="adhan_test_title">Азонни синаш</string>
+    <string name="adhan_test_desc">Овозни текшириш учун ҳозир эшиттиринг</string>
+    <string name="adhan_location_title">Намоз вақтлари учун жойлашув</string>
+    <string name="adhan_location_desc">Аниқ вақтлар учун жойлашувга рухсат беринг</string>
+
+    <string name="qibla_status_aligned">Сиз Қибла томонга қарагансиз</string>
+    <string name="qibla_status_turn">Каъба юқоридаги белгига етгунча бурилинг</string>
+    <string name="qibla_degrees_from_north">Шимолдан %1$d°</string>
+    <string name="qibla_distance_km">Маккагача %1$d км</string>
+    <string name="qibla_info_no_sensor">Телефонингизда компас сенсори йўқ, шунинг учун жонли компас ишламайди. Қибла йўналиши барибир кўрсатилади.</string>
+    <string name="qibla_info_calibrate">Аниқроқ натижа учун телефонни “8” шаклида ҳаракатлантиринг ва магнитлардан узоқ тутинг.</string>
+
+    <string name="tasbeeh_tap_anywhere">Санаш учун исталган жойга босинг</string>
+    <string name="tasbeeh_total">Жами: %1$d</string>
+    <string name="zikr_name_1">Субҳаналлоҳ</string>
+    <string name="zikr_name_2">Алҳамдулиллаҳ</string>
+    <string name="zikr_name_3">Аллоҳу акбар</string>
+    <string name="zikr_meaning_1">Аллоҳ покдир</string>
+    <string name="zikr_meaning_2">Аллоҳ учун ҳамдлар бўлсин</string>
+    <string name="zikr_meaning_3">Аллоҳ энг улуғдир</string>
+</resources>

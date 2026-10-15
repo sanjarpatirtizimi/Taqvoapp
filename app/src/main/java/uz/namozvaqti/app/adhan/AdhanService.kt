@@ -20,6 +20,7 @@ import androidx.core.app.ServiceCompat
 import androidx.core.content.ContextCompat
 import uz.namozvaqti.app.R
 import uz.namozvaqti.app.domain.Prayer
+import uz.namozvaqti.app.locale.LocaleHelper
 import uz.namozvaqti.app.ui.MainActivity
 
 /**
@@ -121,12 +122,13 @@ class AdhanService : Service() {
             this, 1, Intent(this, AdhanService::class.java).setAction(ACTION_STOP),
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
         )
+        val text = LocaleHelper.forApp(this) // the language chosen in Settings
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_stat_namoz)
-            .setContentTitle(getString(R.string.notif_adhan_title, getString(prayer.nameRes)))
-            .setContentText(getString(R.string.notif_adhan_text))
+            .setContentTitle(text.getString(R.string.notif_adhan_title, text.getString(prayer.nameRes)))
+            .setContentText(text.getString(R.string.notif_adhan_text))
             .setContentIntent(open)
-            .addAction(0, getString(R.string.notif_adhan_stop), stop)
+            .addAction(0, text.getString(R.string.notif_adhan_stop), stop)
             .setOngoing(true)
             .setCategory(NotificationCompat.CATEGORY_ALARM)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
