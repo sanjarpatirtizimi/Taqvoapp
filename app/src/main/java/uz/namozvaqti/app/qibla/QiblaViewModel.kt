@@ -61,7 +61,7 @@ class QiblaViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     /** A fresh smoother per subscription, so reopening the screen never starts from a stale angle. */
-    private val headings: Flow<Heading?> = flow {
+    private val headings: Flow<Heading?> = flow<Heading?> {
         val smoother = HeadingSmoother(alpha = 0.15f)
         compass.readings().collect { emit(Heading(smoother.next(it.azimuthDegrees), it.accuracy)) }
     }.onStart { emit(null) }
