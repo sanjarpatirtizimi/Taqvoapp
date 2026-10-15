@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lets Android 13+ show Namoz Vaqti in Settings → System → Languages → App languages. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="uz" />
+    <locale android:name="ru" />
+</locale-config>

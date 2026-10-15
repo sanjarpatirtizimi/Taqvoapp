@@ -1,0 +1,27 @@
+# Gradle / build output
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local machine config (SDK path, secrets)
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+captures/
+.externalNativeBuild/
+.cxx/
+*.log

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- O‘zbekcha (lotin) -->
+<resources>
+    <string name="a11y_service_label">Namoz Vaqti – Namozda diqqat</string>
+    <string name="a11y_service_description">Siz boshlagan namoz fokus seansi davomida bu xizmat qaysi ilova ochilganini tekshiradi. Agar u bloklangan ilovalar ro‘yxatida bo‘lsa, sizni bosh ekranga qaytaradi. U ekrandagi matn, parol yoki xabarlarni o‘qimaydi va hech qayerga ma’lumot yubormaydi.</string>
+
+    <string name="action_back">Orqaga</string>
+    <string name="action_clear">Tozalash</string>
+    <string name="action_cancel">Bekor qilish</string>
+    <string name="action_reset">Tiklash</string>
+    <string name="action_enable">Yoqish</string>
+    <string name="action_done">Tayyor</string>
+    <string name="action_skip">Hozircha o‘tkazib yuborish</string>
+    <string name="status_on">✓ Yoqilgan</string>
+
+    <string name="tab_home">Bosh sahifa</string>
+    <string name="tab_qibla">Qibla</string>
+    <string name="tab_tasbeeh">Tasbeh</string>
+
+    <string name="prayer_fajr">Bomdod</string>
+    <string name="prayer_sunrise">Quyosh</string>
+    <string name="prayer_dhuhr">Peshin</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Shom</string>
+    <string name="prayer_isha">Xufton</string>
+    <string name="prayer_generic">Namoz</string>
+
+    <string name="notif_channel_protection">Namoz fokus seansi</string>
+    <string name="notif_title_session">%1$s – fokus seansi</string>
+    <string name="notif_text_session">Ilovani ochish uchun bosing. Seansni istalgan payt tugatishingiz mumkin.</string>
+    <string name="notif_end_session">Seansni tugatish</string>
+    <string name="notif_channel_adhan">Azon</string>
+    <string name="notif_adhan_title">%1$s vaqti</string>
+    <string name="notif_adhan_text">Azon eshittirilmoqda</string>
+    <string name="notif_adhan_stop">To‘xtatish</string>
+    <string name="toast_focus_on_prayer">Namozga e’tibor qarating 🤲</string>
+
+    <string name="prayer_loading">Namoz vaqtlari yuklanmoqda…</string>
+    <string name="btn_use_location">Joylashuvimdan foydalanish</string>
+    <string name="label_play_adhan">Azonni eshittirish</string>
+    <string name="perm_exact_alarms">Aniq signallar (Signallar va eslatmalar)</string>
+    <string name="btn_allow_notifications">Bildirishnomalarga ruxsat berish</string>
+    <string name="btn_test_adhan">Azonni hozir sinash</string>
+    <string name="focus_title">Namozda diqqat</string>
+    <string name="focus_enable">Namoz vaqtida fokusni yoqish</string>
+    <string name="perm_overlay">1. Boshqa ilovalar ustida ko‘rsatish (overlay)</string>
+    <string name="perm_accessibility">2. Ilova bloklagich (Maxsus imkoniyatlar)</string>
+    <string name="perm_usage">3. Foydalanish statistikasi (ixtiyoriy zaxira)</string>
+    <string name="btn_choose_apps">Bloklanadigan ilovalarni tanlash (%1$d ta tanlangan)</string>
+    <string name="btn_test_session">1 daqiqalik sinov seansini boshlash</string>
+    <string name="test_session_name">Sinov</string>
+    <string name="btn_reliability">Signallar ishonchli ishlashi (batareya sozlamasi)</string>
+
+    <string name="a11y_disclosure_title">Namoz vaqtida ilovalarni bloklashga ruxsat berasizmi?</string>
+    <string name="a11y_disclosure_body">Namoz Vaqti Maxsus imkoniyatlar xizmatidan FAQAT namoz fokus seansi davomida qaysi ilova ochilganini aniqlash uchun foydalanadi, shunda SIZ tanlagan bloklangan ilovalar to‘xtatiladi.\n\n• U ekraningizni, matnlar, parollar yoki xabarlarni o‘qimaydi.\n• Hech qanday ma’lumot yig‘maydi va ulashmaydi.\n• Faqat siz yoqqan namoz seanslari davomida ishlaydi.\n• Uni istalgan vaqtda Sozlamalar → Maxsus imkoniyatlar bo‘limida o‘chirishingiz mumkin.</string>
+    <string name="a11y_disclosure_agree">Roziman, davom etish</string>
+    <string name="a11y_disclosure_decline">Yo‘q, rahmat</string>
+
+    <string name="picker_title">Bloklangan ilovalar (%1$d)</string>
+    <string name="picker_search">Ilovalarni qidirish</string>
+    <string name="filter_all">Hammasi</string>
+    <string name="filter_suggested">Tavsiya etilgan</string>
+    <string name="filter_social">Ijtimoiy</string>
+    <string name="filter_games">O‘yinlar</string>
+    <string name="filter_selected">Tanlangan</string>
+    <string name="picker_select_suggested">Chalg‘ituvchi %1$d ta tavsiya etilgan ilovani tanlash</string>
+    <string name="picker_no_apps">Ilovalar topilmadi</string>
+
+    <string name="qibla_title">Qibla</string>
+    <string name="qibla_no_sensor">Bu qurilmada aylanish vektori sensori yo‘q, shuning uchun kompas ishlamaydi.\nQibla yo‘nalishi quyida baribir ko‘rsatiladi.</string>
+    <string name="qibla_finding">Joylashuv aniqlanmoqda…</string>
+    <string name="qibla_aligned">✓ Siz Qibla tomonga qaragansiz</string>
+    <string name="qibla_turn">🕋 yuqoridagi belgiga yetguncha buriling</string>
+    <string name="qibla_bearing">Qibla yo‘nalishi: shimoldan %1$d°</string>
+    <string name="qibla_bearing_distance">Qibla yo‘nalishi: shimoldan %1$d° • Makkagacha %2$d km</string>
+    <string name="qibla_heading">Sizning yo‘nalishingiz: %1$d°</string>
+    <string name="qibla_calibrate">Kompasni kalibrlash kerak: telefonni “8” shaklida harakatlantiring va magnit hamda metalldan uzoqroq tuting.</string>
+    <string name="qibla_fallback_location">Joylashuv sifatida Toshkent ishlatilmoqda. Aniq Qibla uchun joylashuvga ruxsat bering.</string>
+    <string name="qibla_hold_flat">Eng yaxshi aniqlik uchun telefonni tekis ushlang.</string>
+
+    <string name="tasbeeh_title">Tasbeh</string>
+    <string name="tasbeeh_tap_hint">Sanash uchun doiraga bosing</string>
+    <string name="tasbeeh_counter_desc">Tasbeh hisoblagichi, %1$d. Sanash uchun ikki marta bosing.</string>
+    <string name="tasbeeh_count_label">Sanash</string>
+    <string name="tasbeeh_rounds">Aylanishlar: %1$d</string>
+    <string name="tasbeeh_undo">Bekor qilish −1</string>
+    <string name="tasbeeh_vibration">Tebranish</string>
+    <string name="tasbeeh_reset_title">Hisoblagich tiklansinmi?</string>
+    <string name="tasbeeh_reset_text">Joriy hisob (%1$d) 0 ga qaytariladi.</string>
+
+    <string name="overlay_title">Namoz vaqti bo‘ldi</string>
+    <string name="overlay_subtitle">Telefonni qo‘ying va namoz o‘qing.</string>
+    <string name="overlay_hold_to_exit">Chiqish uchun bosib turing (%1$d s)</string>
+    <string name="overlay_keep_holding">Bosib turing… %1$d s</string>
+
+    <string name="oem_other">Boshqa</string>
+
+    <string name="onb_title">Namoz Vaqti doim ishlashi uchun</string>
+    <string name="onb_intro">Ko‘p telefonlar (Xiaomi, Samsung, Oppo, Huawei va boshqalar) batareyani tejash uchun ilovalarni fonda to‘xtatadi. Bu sozlamalarsiz azon eshitilmasligi va namoz fokusi ishlamay qolishi mumkin.</string>
+    <string name="onb_device_detected">Aniqlangan qurilma: %1$s</string>
+
+    <string name="onb_step_battery_title">1-qadam – Batareya cheklovisiz</string>
+    <string name="onb_step_battery_desc">Ilovaga fonda batareya cheklovisiz ishlashga ruxsat bering.</string>
+    <string name="onb_battery_status_ok">✓ Bu ilova uchun batareya optimallashtirish o‘chirilgan</string>
+    <string name="onb_battery_status_bad">Bu ilova uchun batareya optimallashtirish YOQILGAN</string>
+    <string name="onb_btn_battery_list">Batareya optimallashtirish ro‘yxatini ochish</string>
+    <string name="onb_btn_battery_oem">%1$s batareya sozlamalarini ochish</string>
+
+    <string name="onb_step_autostart_title">2-qadam – Avtoishga tushirish</string>
+    <string name="onb_step_autostart_desc">Qayta yoqilgandan keyin ilova o‘zi ishga tushishiga va signallar uni uyg‘otishiga ruxsat bering.</string>
+    <string name="onb_btn_autostart">Avtoishga tushirish sozlamalarini ochish</string>
+    <string name="onb_autostart_confirm">Men uni yoqdim</string>
+    <string name="onb_autostart_not_needed">Bu telefonda alohida avtoishga tushirish ekrani yo‘q. 1-qadam yetarli.</string>
+
+    <string name="onb_step_alarm_title">3-qadam – Aniq signallar va bildirishnomalar</string>
+    <string name="onb_step_alarm_desc">Azon aynan o‘z vaqtida eshitilishi uchun kerak.</string>
+
+    <string name="onb_step_lock_title">4-qadam – Ilovani so‘nggilar ro‘yxatida qulflash</string>
+    <string name="onb_step_lock_desc">So‘nggi ilovalar ekranini oching va Namoz Vaqti’ni qulflang yoki mahkamlang (telefoningizga qarab karta ustini uzoq bosing yoki qulf belgisini bosing). Qulflangan ilovalar “Hammasini tozalash” bilan yopilmaydi.</string>
+
+    <string name="onb_step_restricted_title">Agar “Maxsus imkoniyatlar” xira bo‘lsa</string>
+    <string name="onb_step_restricted_desc">Android 13+ da APK fayldan o‘rnatilgan ilovalarda “Cheklangan sozlamalar” bo‘lishi mumkin. “Ilova haqida” sahifasini oching, yuqori o‘ngdagi ⋮ ni bosing va “Cheklangan sozlamalarga ruxsat berish” ni tanlang, so‘ng xizmatni qayta yoqing.</string>
+    <string name="onb_btn_app_info">“Ilova haqida” sahifasini ochish</string>
+
+    <string name="onb_oem_guide_title">%1$s uchun qo‘lda bajariladigan qadamlar</string>
+    <string name="onb_open_failed">Bu ekranni ushbu telefonda ochib bo‘lmadi. Uning o‘rniga “Ilova haqida” ochildi — quyidagi qo‘lda bajariladigan qadamlarga amal qiling.</string>
+
+    <string name="onb_guide_xiaomi">1. Sozlamalar → Ilovalar → Ilovalarni boshqarish → Namoz Vaqti → Avtoishga tushirish: YOQILGAN.\n2. Shu sahifada → Batareya tejash → “Cheklovlarsiz”.\n3. Sozlamalar → Batareya → har qanday batareya tejash rejimini o‘chiring.\n4. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
+    <string name="onb_guide_samsung">1. Sozlamalar → Ilovalar → Namoz Vaqti → Batareya → “Cheklovsiz”.\n2. Sozlamalar → Batareya → Fonda foydalanish cheklovlari → “Ishlatilmayotgan ilovalarni uxlatish” ni o‘chiring; Namoz Vaqti “Uxlayotgan ilovalar” yoki “Chuqur uxlayotgan ilovalar” ro‘yxatida BO‘LMASLIGI kerak va uni “Hech qachon uxlamaydigan ilovalar” ga qo‘shing.\n3. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
+    <string name="onb_guide_oppo">1. Sozlamalar → Ilovalar → Ilovalarni boshqarish → Namoz Vaqti → Batareyadan foydalanish → “Fon faoliyatiga ruxsat” va “Avtoishga tushirishga ruxsat”.\n2. Sozlamalar → Batareya → Namoz Vaqti uchun “Batareyadan foydalanishni optimallashtirish” ni o‘chiring (“Optimallashtirmaslik”).\n3. Maxfiylik / Ruxsatlar → Ishga tushirish menejeri (Avtoishga tushirish) → Namoz Vaqti’ni yoqing.\n4. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
+    <string name="onb_guide_huawei">1. Sozlamalar → Batareya → Ilovani ishga tushirish → Namoz Vaqti → “Qo‘lda boshqarish” ga o‘tkazing.\n2. UCHALASINI ham yoqing: “Avtoishga tushirish”, “Ikkilamchi ishga tushirish” va “Fonda ishlash”.\n3. Sozlamalar → Batareya → Quvvat tejash rejimini o‘chiring.\n4. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
+    <string name="onb_guide_vivo">1. Sozlamalar → Batareya → Fon rejimida quvvat sarfini boshqarish → Namoz Vaqti → “Fonda yuqori quvvat sarfiga ruxsat”.\n2. i Manager / Sozlamalar → Ilovalar → Avtoishga tushirish → Namoz Vaqti’ni yoqing.\n3. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
+    <string name="onb_guide_other">1. Sozlamalar → Ilovalar → Namoz Vaqti → Batareya → “Cheklovsiz” (yoki “Optimallashtirmaslik”).\n2. Telefoningizda Avtoishga tushirish yoki Fon faoliyati sozlamasi bo‘lsa, uni Namoz Vaqti uchun yoqing.\n3. Ilovani so‘nggilar ro‘yxatida qulflang (4-qadam).</string>
+</resources>

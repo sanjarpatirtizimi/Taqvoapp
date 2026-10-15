@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Русский -->
+<resources>
+    <string name="a11y_service_label">Namoz Vaqti – Фокус на намазе</string>
+    <string name="a11y_service_description">Только во время запущенного вами сеанса фокуса на намазе эта служба проверяет, какое приложение открылось. Если оно есть в вашем списке блокировки, служба возвращает вас на главный экран. Она не читает содержимое экрана, пароли или сообщения и никуда не отправляет данные.</string>
+
+    <string name="action_back">Назад</string>
+    <string name="action_clear">Очистить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_reset">Сбросить</string>
+    <string name="action_enable">Включить</string>
+    <string name="action_done">Готово</string>
+    <string name="action_skip">Пропустить</string>
+    <string name="status_on">✓ Включено</string>
+
+    <string name="tab_home">Главная</string>
+    <string name="tab_qibla">Кибла</string>
+    <string name="tab_tasbeeh">Тасбих</string>
+
+    <string name="prayer_fajr">Фаджр</string>
+    <string name="prayer_sunrise">Восход</string>
+    <string name="prayer_dhuhr">Зухр</string>
+    <string name="prayer_asr">Аср</string>
+    <string name="prayer_maghrib">Магриб</string>
+    <string name="prayer_isha">Иша</string>
+    <string name="prayer_generic">Намаз</string>
+
+    <string name="notif_channel_protection">Сеанс фокуса на намазе</string>
+    <string name="notif_title_session">%1$s – сеанс фокуса</string>
+    <string name="notif_text_session">Нажмите, чтобы открыть приложение. Сеанс можно завершить в любой момент.</string>
+    <string name="notif_end_session">Завершить сеанс</string>
+    <string name="notif_channel_adhan">Азан</string>
+    <string name="notif_adhan_title">Время намаза: %1$s</string>
+    <string name="notif_adhan_text">Звучит азан</string>
+    <string name="notif_adhan_stop">Остановить</string>
+    <string name="toast_focus_on_prayer">Сосредоточьтесь на намазе 🤲</string>
+
+    <string name="prayer_loading">Загрузка времени намаза…</string>
+    <string name="btn_use_location">Использовать моё местоположение</string>
+    <string name="label_play_adhan">Воспроизводить азан</string>
+    <string name="perm_exact_alarms">Точные будильники (Будильники и напоминания)</string>
+    <string name="btn_allow_notifications">Разрешить уведомления</string>
+    <string name="btn_test_adhan">Проверить азан сейчас</string>
+    <string name="focus_title">Фокус на намазе</string>
+    <string name="focus_enable">Включить фокус во время намаза</string>
+    <string name="perm_overlay">1. Поверх других приложений (оверлей)</string>
+    <string name="perm_accessibility">2. Блокировщик приложений (Специальные возможности)</string>
+    <string name="perm_usage">3. Доступ к статистике использования (необязательно)</string>
+    <string name="btn_choose_apps">Выбрать приложения для блокировки (выбрано: %1$d)</string>
+    <string name="btn_test_session">Запустить пробный сеанс на 1 минуту</string>
+    <string name="test_session_name">Тест</string>
+    <string name="btn_reliability">Надёжная работа будильников (настройка батареи)</string>
+
+    <string name="a11y_disclosure_title">Разрешить блокировку приложений во время намаза?</string>
+    <string name="a11y_disclosure_body">Namoz Vaqti использует службу специальных возможностей ТОЛЬКО для определения того, какое приложение открыто во время сеанса фокуса на намазе, чтобы заблокировать приложения из ВАШЕГО списка.\n\n• Она не читает ваш экран, тексты, пароли и сообщения.\n• Она не собирает и не передаёт данные.\n• Она активна только во время включённых вами сеансов намаза.\n• Её можно отключить в любой момент: Настройки → Специальные возможности.</string>
+    <string name="a11y_disclosure_agree">Согласен, продолжить</string>
+    <string name="a11y_disclosure_decline">Нет, спасибо</string>
+
+    <string name="picker_title">Заблокированные приложения (%1$d)</string>
+    <string name="picker_search">Поиск приложений</string>
+    <string name="filter_all">Все</string>
+    <string name="filter_suggested">Рекомендуемые</string>
+    <string name="filter_social">Соцсети</string>
+    <string name="filter_games">Игры</string>
+    <string name="filter_selected">Выбранные</string>
+    <string name="picker_select_suggested">Выбрать рекомендуемые отвлекающие приложения (%1$d)</string>
+    <string name="picker_no_apps">Приложения не найдены</string>
+
+    <string name="qibla_title">Кибла</string>
+    <string name="qibla_no_sensor">На этом устройстве нет датчика вектора вращения, поэтому компас недоступен.\nАзимут Киблы по-прежнему показан ниже.</string>
+    <string name="qibla_finding">Определение местоположения…</string>
+    <string name="qibla_aligned">✓ Вы обращены в сторону Киблы</string>
+    <string name="qibla_turn">Поворачивайтесь, пока 🕋 не окажется у верхней отметки</string>
+    <string name="qibla_bearing">Азимут Киблы: %1$d° от севера</string>
+    <string name="qibla_bearing_distance">Азимут Киблы: %1$d° от севера • до Мекки %2$d км</string>
+    <string name="qibla_heading">Ваше направление: %1$d°</string>
+    <string name="qibla_calibrate">Компас нужно откалибровать: проведите телефоном по траектории «восьмёрки» и держите его вдали от магнитов и металла.</string>
+    <string name="qibla_fallback_location">В качестве местоположения используется Ташкент. Разрешите доступ к геолокации для точной Киблы.</string>
+    <string name="qibla_hold_flat">Для лучшей точности держите телефон горизонтально.</string>
+
+    <string name="tasbeeh_title">Тасбих</string>
+    <string name="tasbeeh_tap_hint">Нажимайте на круг, чтобы считать</string>
+    <string name="tasbeeh_counter_desc">Счётчик тасбиха: %1$d. Нажмите дважды, чтобы считать.</string>
+    <string name="tasbeeh_count_label">Считать</string>
+    <string name="tasbeeh_rounds">Кругов: %1$d</string>
+    <string name="tasbeeh_undo">Отменить −1</string>
+    <string name="tasbeeh_vibration">Вибрация</string>
+    <string name="tasbeeh_reset_title">Сбросить счётчик?</string>
+    <string name="tasbeeh_reset_text">Текущий счёт (%1$d) будет сброшен до 0.</string>
+
+    <string name="overlay_title">Наступило время намаза</string>
+    <string name="overlay_subtitle">Отложите телефон и совершите намаз.</string>
+    <string name="overlay_hold_to_exit">Удерживайте для выхода (%1$d с)</string>
+    <string name="overlay_keep_holding">Продолжайте удерживать… %1$d с</string>
+
+    <string name="oem_other">Другое</string>
+
+    <string name="onb_title">Чтобы Namoz Vaqti работал стабильно</string>
+    <string name="onb_intro">Многие телефоны (Xiaomi, Samsung, Oppo, Huawei и др.) останавливают фоновые приложения для экономии заряда. Без этих настроек азан может не прозвучать, а фокус на намазе — перестать работать.</string>
+    <string name="onb_device_detected">Обнаружено устройство: %1$s</string>
+
+    <string name="onb_step_battery_title">Шаг 1 – Без ограничений батареи</string>
+    <string name="onb_step_battery_desc">Разрешите приложению работать в фоне без ограничений батареи.</string>
+    <string name="onb_battery_status_ok">✓ Оптимизация батареи для приложения отключена</string>
+    <string name="onb_battery_status_bad">Оптимизация батареи для приложения ВКЛЮЧЕНА</string>
+    <string name="onb_btn_battery_list">Открыть список оптимизации батареи</string>
+    <string name="onb_btn_battery_oem">Открыть настройки батареи %1$s</string>
+
+    <string name="onb_step_autostart_title">Шаг 2 – Автозапуск</string>
+    <string name="onb_step_autostart_desc">Разрешите приложению запускаться после перезагрузки и пробуждаться по будильникам.</string>
+    <string name="onb_btn_autostart">Открыть настройки автозапуска</string>
+    <string name="onb_autostart_confirm">Я включил(а)</string>
+    <string name="onb_autostart_not_needed">На этом телефоне нет отдельного экрана автозапуска. Достаточно шага 1.</string>
+
+    <string name="onb_step_alarm_title">Шаг 3 – Точные будильники и уведомления</string>
+    <string name="onb_step_alarm_desc">Нужно, чтобы азан звучал точно вовремя.</string>
+
+    <string name="onb_step_lock_title">Шаг 4 – Закрепите приложение в списке недавних</string>
+    <string name="onb_step_lock_desc">Откройте список недавних приложений и закрепите Namoz Vaqti (долгое нажатие на карточку или значок замка — зависит от телефона). Закреплённые приложения не закрываются кнопкой «Очистить всё».</string>
+
+    <string name="onb_step_restricted_title">Если «Специальные возможности» недоступны</string>
+    <string name="onb_step_restricted_desc">В Android 13+ у приложений, установленных из APK-файла, могут действовать «Ограниченные настройки». Откройте «О приложении», нажмите ⋮ (справа вверху) и выберите «Разрешить ограниченные настройки», затем снова включите службу.</string>
+    <string name="onb_btn_app_info">Открыть «О приложении»</string>
+
+    <string name="onb_oem_guide_title">Ручные шаги для %1$s</string>
+    <string name="onb_open_failed">Не удалось открыть этот экран на вашем телефоне. Вместо него открыто «О приложении» — выполните ручные шаги ниже.</string>
+
+    <string name="onb_guide_xiaomi">1. Настройки → Приложения → Все приложения → Namoz Vaqti → Автозапуск: ВКЛ.\n2. На той же странице → Экономия заряда → «Нет ограничений».\n3. Настройки → Аккумулятор → отключите любой режим экономии заряда.\n4. Закрепите приложение в списке недавних (шаг 4).</string>
+    <string name="onb_guide_samsung">1. Настройки → Приложения → Namoz Vaqti → Аккумулятор → «Без ограничений».\n2. Настройки → Аккумулятор → Ограничения фоновой работы → отключите «Переводить неиспользуемые приложения в спящий режим»; убедитесь, что Namoz Vaqti НЕ в списках «Спящие приложения» и «Приложения в глубоком сне», и добавьте его в «Никогда не спящие приложения».\n3. Закрепите приложение в списке недавних (шаг 4).</string>
+    <string name="onb_guide_oppo">1. Настройки → Приложения → Управление приложениями → Namoz Vaqti → Использование батареи → «Разрешить фоновую активность» и «Разрешить автозапуск».\n2. Настройки → Аккумулятор → для Namoz Vaqti отключите «Оптимизацию расхода заряда» («Не оптимизировать»).\n3. Конфиденциальность / Разрешения → Менеджер запуска (Автозапуск) → включите Namoz Vaqti.\n4. Закрепите приложение в списке недавних (шаг 4).</string>
+    <string name="onb_guide_huawei">1. Настройки → Аккумулятор → Запуск приложений → Namoz Vaqti → переключите на «Управлять вручную».\n2. Включите ВСЕ три пункта: «Автозапуск», «Косвенный запуск» и «Работа в фоновом режиме».\n3. Настройки → Аккумулятор → отключите режим энергосбережения.\n4. Закрепите приложение в списке недавних (шаг 4).</string>
+    <string name="onb_guide_vivo">1. Настройки → Аккумулятор → Управление энергопотреблением в фоне → Namoz Vaqti → «Разрешить высокое энергопотребление в фоне».\n2. i Manager / Настройки → Приложения → Автозапуск → включите Namoz Vaqti.\n3. Закрепите приложение в списке недавних (шаг 4).</string>
+    <string name="onb_guide_other">1. Настройки → Приложения → Namoz Vaqti → Аккумулятор → «Без ограничений» (или «Не оптимизировать»).\n2. Если на телефоне есть настройка автозапуска или фоновой активности, включите её для Namoz Vaqti.\n3. Закрепите приложение в списке недавних (шаг 4).</string>
+</resources>

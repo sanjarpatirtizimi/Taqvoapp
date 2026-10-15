@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DEFAULT LANGUAGE: English. Translations: values-uz (Uzbek, Latin) and values-ru (Russian). -->
+<resources>
+    <!-- ===== App / service identity ===== -->
+    <string name="app_name" translatable="false">Namoz Vaqti</string>
+    <string name="a11y_service_label">Namoz Vaqti – Prayer Focus</string>
+    <string name="a11y_service_description">Only during a prayer focus session that you started, this service checks which app came to the front. If it is on your blocked-apps list, it returns you to the home screen. It does not read screen content, passwords or messages, and sends no data anywhere.</string>
+
+    <!-- ===== Common ===== -->
+    <string name="action_back">Back</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_done">Done</string>
+    <string name="action_skip">Skip for now</string>
+    <string name="status_on">✓ On</string>
+
+    <!-- ===== Tabs ===== -->
+    <string name="tab_home">Home</string>
+    <string name="tab_qibla">Qibla</string>
+    <string name="tab_tasbeeh">Tasbeeh</string>
+
+    <!-- ===== Prayer names ===== -->
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_sunrise">Sunrise</string>
+    <string name="prayer_dhuhr">Dhuhr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_isha">Isha</string>
+    <string name="prayer_generic">Prayer</string>
+
+    <!-- ===== Notifications ===== -->
+    <string name="notif_channel_protection">Prayer focus session</string>
+    <string name="notif_title_session">%1$s – focus session</string>
+    <string name="notif_text_session">Tap to open the app. You can end the session at any time.</string>
+    <string name="notif_end_session">End session</string>
+    <string name="notif_channel_adhan">Adhan</string>
+    <string name="notif_adhan_title">%1$s time</string>
+    <string name="notif_adhan_text">Adhan is playing</string>
+    <string name="notif_adhan_stop">Stop</string>
+    <string name="toast_focus_on_prayer">Focus on Prayer 🤲</string>
+
+    <!-- ===== Home ===== -->
+    <string name="prayer_loading">Loading prayer times…</string>
+    <string name="btn_use_location">Use my location</string>
+    <string name="label_play_adhan">Play adhan</string>
+    <string name="perm_exact_alarms">Exact alarms (Alarms &amp; reminders)</string>
+    <string name="btn_allow_notifications">Allow notifications</string>
+    <string name="btn_test_adhan">Test adhan now</string>
+    <string name="focus_title">Prayer Focus</string>
+    <string name="focus_enable">Enable focus during prayer</string>
+    <string name="perm_overlay">1. Display over other apps (overlay)</string>
+    <string name="perm_accessibility">2. App blocker (Accessibility)</string>
+    <string name="perm_usage">3. Usage access (optional fallback)</string>
+    <string name="btn_choose_apps">Choose apps to block (%1$d selected)</string>
+    <string name="btn_test_session">Start 1-minute test session</string>
+    <string name="test_session_name">Test</string>
+    <string name="btn_reliability">Keep alarms reliable (battery setup)</string>
+
+    <!-- ===== Accessibility prominent disclosure ===== -->
+    <string name="a11y_disclosure_title">Allow app blocking during prayer?</string>
+    <string name="a11y_disclosure_body">Namoz Vaqti uses Android\'s Accessibility Service ONLY to detect which app is opened while a prayer focus session is running, so it can block the apps on YOUR blacklist.\n\n• It does not read your screen, texts, passwords or messages.\n• It collects and shares no data.\n• It is active only during prayer sessions you enabled.\n• You can turn it off at any time in Settings → Accessibility.</string>
+    <string name="a11y_disclosure_agree">Agree and continue</string>
+    <string name="a11y_disclosure_decline">No thanks</string>
+
+    <!-- ===== App picker ===== -->
+    <string name="picker_title">Blocked apps (%1$d)</string>
+    <string name="picker_search">Search apps</string>
+    <string name="filter_all">All</string>
+    <string name="filter_suggested">Suggested</string>
+    <string name="filter_social">Social</string>
+    <string name="filter_games">Games</string>
+    <string name="filter_selected">Selected</string>
+    <string name="picker_select_suggested">Select %1$d suggested distracting apps</string>
+    <string name="picker_no_apps">No apps found</string>
+
+    <!-- ===== Qibla ===== -->
+    <string name="qibla_title">Qibla</string>
+    <string name="qibla_no_sensor">This device has no rotation-vector sensor, so the compass is unavailable.\nThe Qibla bearing is still shown below.</string>
+    <string name="qibla_finding">Finding location…</string>
+    <string name="qibla_aligned">✓ You are facing the Qibla</string>
+    <string name="qibla_turn">Turn until the 🕋 reaches the top marker</string>
+    <string name="qibla_bearing">Qibla bearing: %1$d° from north</string>
+    <string name="qibla_bearing_distance">Qibla bearing: %1$d° from north • %2$d km to Makkah</string>
+    <string name="qibla_heading">Your heading: %1$d°</string>
+    <string name="qibla_calibrate">Compass needs calibration: move the phone in a figure-8 and keep it away from magnets and metal.</string>
+    <string name="qibla_fallback_location">Using Tashkent as your location. Allow location for an accurate Qibla.</string>
+    <string name="qibla_hold_flat">Hold the phone flat for best accuracy.</string>
+
+    <!-- ===== Tasbeeh ===== -->
+    <string name="tasbeeh_title">Tasbeeh</string>
+    <string name="tasbeeh_tap_hint">Tap the circle to count</string>
+    <string name="tasbeeh_counter_desc">Tasbeeh counter, %1$d. Double tap to count.</string>
+    <string name="tasbeeh_count_label">Count</string>
+    <string name="tasbeeh_rounds">Rounds: %1$d</string>
+    <string name="tasbeeh_undo">Undo −1</string>
+    <string name="tasbeeh_vibration">Vibration</string>
+    <string name="tasbeeh_reset_title">Reset counter?</string>
+    <string name="tasbeeh_reset_text">The current count (%1$d) will be set back to 0.</string>
+
+    <!-- ===== Focus screen (overlay) ===== -->
+    <string name="overlay_arabic" translatable="false">حان وقت الصلاة</string>
+    <string name="overlay_title">It\'s Prayer Time</string>
+    <string name="overlay_subtitle">Put the phone down and pray.</string>
+    <string name="overlay_hold_to_exit">Press &amp; hold to exit (%1$ds)</string>
+    <string name="overlay_keep_holding">Keep holding… %1$ds</string>
+
+    <!-- ===== Onboarding: battery &amp; autostart ===== -->
+    <string name="oem_xiaomi" translatable="false">Xiaomi / Redmi / POCO</string>
+    <string name="oem_samsung" translatable="false">Samsung</string>
+    <string name="oem_oppo" translatable="false">Oppo / Realme / OnePlus</string>
+    <string name="oem_huawei" translatable="false">Huawei / Honor</string>
+    <string name="oem_vivo" translatable="false">Vivo / iQOO</string>
+    <string name="oem_other">Other</string>
+
+    <string name="onb_title">Keep Namoz Vaqti running</string>
+    <string name="onb_intro">Many phones (Xiaomi, Samsung, Oppo, Huawei and others) stop apps in the background to save battery. Without these settings, the adhan may not sound and prayer focus may stop working.</string>
+    <string name="onb_device_detected">Detected device: %1$s</string>
+
+    <string name="onb_step_battery_title">Step 1 – Unrestricted battery</string>
+    <string name="onb_step_battery_desc">Allow the app to run in the background without battery limits.</string>
+    <string name="onb_battery_status_ok">✓ Battery optimization is off for this app</string>
+    <string name="onb_battery_status_bad">Battery optimization is ON for this app</string>
+    <string name="onb_btn_battery_list">Open battery optimization list</string>
+    <string name="onb_btn_battery_oem">Open %1$s battery settings</string>
+
+    <string name="onb_step_autostart_title">Step 2 – Autostart</string>
+    <string name="onb_step_autostart_desc">Allow the app to start itself after a reboot and to be woken by alarms.</string>
+    <string name="onb_btn_autostart">Open Autostart settings</string>
+    <string name="onb_autostart_confirm">I have enabled it</string>
+    <string name="onb_autostart_not_needed">This phone has no separate Autostart screen. Step 1 is enough.</string>
+
+    <string name="onb_step_alarm_title">Step 3 – Exact alarms and notifications</string>
+    <string name="onb_step_alarm_desc">Needed so the adhan sounds exactly on time.</string>
+
+    <string name="onb_step_lock_title">Step 4 – Lock the app in Recents</string>
+    <string name="onb_step_lock_desc">Open the Recents screen, then lock or pin Namoz Vaqti (long-press the card or tap the lock icon, depending on your phone). Locked apps are not closed by “Clear all”.</string>
+
+    <string name="onb_step_restricted_title">If Accessibility is greyed out</string>
+    <string name="onb_step_restricted_desc">On Android 13+, apps installed from an APK file may have “Restricted settings”. Open App info, tap ⋮ (top right) and choose “Allow restricted settings”, then enable the service again.</string>
+    <string name="onb_btn_app_info">Open App info</string>
+
+    <string name="onb_oem_guide_title">Manual steps for %1$s</string>
+    <string name="onb_open_failed">Could not open that screen on this phone. Opened App info instead – please follow the manual steps below.</string>
+
+    <string name="onb_guide_xiaomi">1. Settings → Apps → Manage apps → Namoz Vaqti → Autostart: ON.\n2. Same page → Battery saver → “No restrictions”.\n3. Settings → Battery → turn off any battery saver mode.\n4. Lock the app in Recents (step 4).</string>
+    <string name="onb_guide_samsung">1. Settings → Apps → Namoz Vaqti → Battery → “Unrestricted”.\n2. Settings → Battery → Background usage limits → turn off “Put unused apps to sleep”; make sure Namoz Vaqti is NOT in “Sleeping apps” or “Deep sleeping apps”, and add it to “Never sleeping apps”.\n3. Lock the app in Recents (step 4).</string>
+    <string name="onb_guide_oppo">1. Settings → Apps → App management → Namoz Vaqti → Battery usage → “Allow background activity” and “Allow auto-launch”.\n2. Settings → Battery → for Namoz Vaqti turn off “Optimize battery use” (“Don\'t optimize”).\n3. Privacy / Permissions → Startup manager (Auto-launch) → enable Namoz Vaqti.\n4. Lock the app in Recents (step 4).</string>
+    <string name="onb_guide_huawei">1. Settings → Battery → App launch → Namoz Vaqti → switch to “Manage manually”.\n2. Enable ALL three: “Auto-launch”, “Secondary launch” and “Run in background”.\n3. Settings → Battery → turn off Power saving mode.\n4. Lock the app in Recents (step 4).</string>
+    <string name="onb_guide_vivo">1. Settings → Battery → Background power consumption management → Namoz Vaqti → “Allow high background power consumption”.\n2. i Manager / Settings → Apps → Autostart → enable Namoz Vaqti.\n3. Lock the app in Recents (step 4).</string>
+    <string name="onb_guide_other">1. Settings → Apps → Namoz Vaqti → Battery → “Unrestricted” (or “Don\'t optimize”).\n2. If your phone has an Autostart or Background activity setting, enable it for Namoz Vaqti.\n3. Lock the app in Recents (step 4).</string>
+</resources>
